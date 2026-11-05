@@ -35,10 +35,14 @@ h3{font-size:17px;margin:26px 0 6px}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
 .btn{display:inline-block;padding:11px 16px;border-radius:8px;border:1px solid var(--rule);background:var(--card);color:var(--ink);font:600 15px Inter,sans-serif;text-decoration:none;cursor:pointer}
 .btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.response{border:1px solid var(--green);border-radius:10px;padding:18px 20px;background:var(--card)}
+.response{border:1px solid var(--green);border-radius:10px;padding:18px 20px;background:var(--card);margin-bottom:14px}
+.qs .ex{margin:8px 0 2px;padding:8px 12px;border-left:3px solid var(--c);background:var(--card);font:16px/1.55 "Source Serif 4",Georgia,serif;border-radius:0 6px 6px 0}
+.qs .nt{font-size:14px;color:var(--muted);margin-top:4px}
+.tally{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 4px}.tally span{font:700 13px Inter;padding:4px 10px;border-radius:999px;border:1px solid var(--rule);background:var(--card)}
+details.att{margin-top:10px}details.att summary{cursor:pointer;font-weight:600;font-size:14.5px}
 .foot{margin-top:48px;padding-top:18px;border-top:3px double var(--rule);font-size:14.5px;color:var(--muted)}
 .cta{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:18px 20px;margin-top:34px}
-.score{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:8px 0 26px}
+.score{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:8px 0 26px}
 .score div{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px 12px}
 .score b{display:block;font:800 30px/1.1 Inter;letter-spacing:-.02em}.score span{font-size:13px;color:var(--muted)}
 .score .red b{color:var(--red)}
@@ -58,7 +62,8 @@ h3{font-size:17px;margin:26px 0 6px}
 <h1>Open Letters to Shoalhaven Council</h1>
 <p class="lede">Open letters to the Mayor, CEO and Councillors of Shoalhaven City Council: what was asked, and whether anyone answered. Each letter gets 21 days to be answered, or the deadline it sets itself. Responses are published in full; so is silence.</p>
 <div class="score"><div><b>72</b><span>letters sent</span></div><div><b>657</b><span>questions asked</span></div>
-<div class="red"><b>0</b><span>responses received</span></div>
+<div class="red"><b>0</b><span>replies received</span></div>
+<div class="red"><b>0</b><span>questions answered</span></div>
 <div class="red"><b><span data-score-days="2026-04-08" style="font:inherit;color:inherit">211</span></b><span>days, longest wait</span></div></div>
 <input id="q" type="search" placeholder="Search letters" aria-label="Search letters">
 <div class="filters"><button class="on" data-f="">All (72)</button><button data-f="overdue">No response</button><button data-f="awaiting">Awaiting</button><button data-f="responded">Responded</button></div>
